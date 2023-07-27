@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font{
+    width: 300px;
+    height: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    font-display: swap;
+}
+
+.kirakira{
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url(img/kirakira.png);
+    width: 100%;
+    height: 180vh;
+    opacity: 0.5;
+    position: absolute;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.bg{
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url(img/bg.jpg);
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    filter: blur(10px);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.bgCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.logoWhite{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoWhite img{
+    scale: 0.6;
+}
+
+.characterTilte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 185px;
+    width: 100%;
+    height: 50px;
+}
+
+.redWords{
+    color: #DE057F;
+}
+
+.whiteWords{
+    color: #ffffff;
+}
+
+.titleWords{
+    font-size: 50px;
+}
+
+#starL img{
+    width: 64.2px;
+    height: 60px;
+}
+
+#starR img{
+    width: 64.2px;
+    height: 60px;
+}
+
+.charHeads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 270px;
+}
+
+.head{
+    margin-left: 15px;
+    background-color: black;
+}
+
+#shadow1{
+    left: 569px;
+}
+
+#shadow2{
+    left: 666.5px;
+}
+
+.headShadows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 270px;
+}
+
+.headShadow{
+    margin-left: 15px;
+    width: 82px;
+    height: 82px;
+    opacity: 0;
+    background-color: black;   
+}
+
+.headShadow:hover{
+    opacity: 0.5;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.charMainArea{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.charBody img{
+    transition: all ease 1s;
+    position: relative;
+    bottom: 70px;
+    opacity: 0;
+    width: 400px;
+    height: auto;
+}
+
+.charData{
+    transition: all ease 1s;
+    position: relative;
+    left: 100px;
+    opacity: 0;
+    text-align: left;
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.nameArea{
+    position: relative;
+    top: 50px;
+    margin-left: 25px;
+    width: 550px;
+    height: 64px;
+    align-items:flex-end;
+    display: flex;
+}
+
+.nameTitleWordsJP{
+    font-size: 64px;
+}
+
+.nameTitleWordsEN{
+    position: relative;
+    bottom: 8px;
+    letter-spacing: 4px;
+    font-size: 14.5px;
+}
+
+.cvArea{
+    position: absolute;
+    margin-left: 25px;
+    top: 132px;
+    display: flex;
+    align-items: end;
+    width: 500px;
+    height: 37px;
+}
+
+#cv{
+    font-size: 15px;
+    font-weight: 700;
+    height: 16px;
+    color: white;
+    position: relative;
+    bottom: 5px;
+    margin-right: 8px;
+}
+
+.nameCVWordsJP{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.nameCVWordsEN{
+    letter-spacing: 0.8em;
+    font-size: 0.3em;
+    margin-left: 12px;
+}
+
+.decorationArea{
+    line-height: 1.8;
+    width: 600px;
+    position: absolute;
+    top: 210px;
+    margin-left: 30px;
+}
+
+.footArea{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    bottom: -1450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoBlack{
+    text-align: center;
+    top: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+#blackLogo{
+    scale: 0.5;
+}
+
+.copyright{
+    letter-spacing: 1px;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+    padding:14px
+}
